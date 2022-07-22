@@ -96,14 +96,18 @@ html, head, div, body, p, footer {
     text-align: center;
     font-weight: 600;
     font-size: 70px;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
     padding-bottom: 20px;
     padding-top:100px;
     transition: .2s ease-in;
 }
 
 #header:hover { color:rgb(83, 100, 83) }
+
+@media (max-width: 500px) {
+    #header {
+        font-size: 45px;
+    }
+}
 
 #about-me-subhead {
     font-weight: 600;
@@ -215,16 +219,12 @@ html, head, div, body, p, footer {
     color:rgba(83, 72, 61, 0.807) 
 }
 
-.special {
-    color: rgb(94, 129, 94);
-}
+.special { color: rgb(94, 129, 94); }
 
 #proj-description {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     padding-top: 3%;
-    padding-left: 18%;
-    padding-right: 15%;
 }
 
 #social { 
