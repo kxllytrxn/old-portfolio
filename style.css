@@ -1,0 +1,258 @@
+html, head, div, body, p, footer {
+    font-family: 'DM Sans', sans-serif;
+    color: #382b1c;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.heading {
+    padding-top: 100px;
+    padding-left: 19.5%;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.body {
+    padding-left: 20%;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0px;
+    padding-right: 5%;
+}
+
+.profile { padding-top: 100px; }
+
+#profilepic { 
+    padding-left: 0%;
+    border-radius: 12px;
+     width:70%
+}
+
+@media (max-width: 990px) { 
+    .heading {
+        padding-left: 10%;
+        text-align: center;
+        padding-right: 10%;
+    }
+    .body { 
+        padding-left: 10%;
+        text-align: center;
+ }
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.titles::before {
+    margin: 0px;
+    content: "an avid programmer";
+    animation: animate infinite 5s;
+    padding-left: 9px;
+    color: rgb(135, 117, 105);
+    font-display: solid underline;
+}
+
+@keyframes animate {
+    0% {
+        content: "an avid programmer";
+    }
+    20% {
+        content: "a self-taught musician";
+    }
+    40% {
+        content: "a food-explorer";
+    }
+    60% {
+        content: "a part-time barista";
+    }
+    80% {
+        content: "an aspiring blogger";
+    }
+}
+
+.about-me {
+    font-size:16px;
+    text-align: center;
+}
+
+#icon {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-bottom: 20px;
+    padding-top:100px;
+    transition: .2s ease-in;
+}
+
+#header:hover { color:rgb(83, 100, 83) }
+
+#about-me-subhead {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#down {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    height: 45px;
+    width: 45px;
+    transition: transform 0.25s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: hidden;
+}
+.container-fluid::-webkit-scrollbar { display: none;  /* Safari and Chrome */ }
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: hidden;
+}
+.container::-webkit-scrollbar { display: none;  /* Safari and Chrome */ }
+
+.nav-item { float: right; }
+
+#exp {
+    background: rgba(167, 150, 133, 0.449);
+    border-radius: 12px;
+    padding: 40px;
+    position: relative;
+    transition: linear .5s;
+    margin-bottom: 40px;
+}
+
+#exp:hover {
+    background: rgba(167, 150, 133, 0.683);
+}
+
+#company {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+#position {
+    margin: 0px;
+    padding: 0px;
+}
+
+#date {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    color:rgba(84, 78, 72, 0.689)
+}
+
+#description {
+    margin: 0px;
+    padding-top: 1em;
+}
+
+#company-logo {
+    margin: 20px;
+}
+
+.nav-item {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#project-logo {
+    margin: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+.project {
+    background: rgba(167, 150, 133, 0.449);
+    border-radius: 12px;
+    padding: 5%;
+    margin-bottom: 30px;
+}
+
+.project-header {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-top: 5%;   
+    color: black;
+}
+
+#subhead {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    color:rgba(83, 72, 61, 0.807) 
+}
+
+.special {
+    color: rgb(94, 129, 94);
+}
+
+#proj-description {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 18%;
+    padding-right: 15%;
+}
+
+#social { 
+    height: 50px;
+    width: 50px;
+    overflow: none;
+}
+
+.links { 
+    color:rgb(83, 100, 83);
+    align-items: center;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+
+.links:hover {
+    color:rgb(34, 46, 34);
+    text-decoration: none; 
+    transition: .2s ease-in;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}   
+
+.hide:focus { outline: 1px rgba(83, 100, 83, 0.119) solid; }
+
+.con {
+    display: flex;
+    justify-content: center;
+}
