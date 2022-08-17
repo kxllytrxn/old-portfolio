@@ -208,10 +208,15 @@ html, head, div, body, p, footer {
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 0px;
-    margin-top: 5%;   
-    color: black;
+    margin-top: 1vh;   
+    color:rgb(83, 100, 83);
 }
 
+.project-header:hover {
+    color:rgb(34, 46, 34);
+    text-decoration: none; 
+    transition: .2s ease-in;
+}
 #subhead {
     margin: 0px;
     padding: 0px;
