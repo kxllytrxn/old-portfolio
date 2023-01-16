@@ -17,7 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body style="background: rgb(220, 213, 201);"> 
+<body class="background"> 
+       
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">
@@ -29,209 +30,254 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"> home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-me">About</a>
+              <a class="nav-link" href="#about-me"> about </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#projects">projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="images/aboutme/2022 Resume.pdf">Resume</a>
-            </li>
+                <a class="nav-link" href="#connect"> let's connect! &hearts; </a>
+              </li>
         </ul>
     </div>
 </nav>
-<!-- Intro -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-            <h1 class="heading"> hi there! </h1>
-                <p class="body"> I'm Kelly,<span class="titles"></span> </p>
-                <p class="body" style="font-size: 24px; padding-bottom: 10px;"> let's connect! </p>
-                <p class="body">
-                    <a href="https://www.facebook.com/kelly.tran.16752" id="social"><img src="images/icons/facebook.svg" /></a>
-                    <a href="http://instagram.com/kxllytrxn/" id="social"><img src="images/icons/insta.svg" /></a>
-                    <a href="https://www.linkedin.com/in/kelly-tran-2210" id="social"><img src="images/icons/linkedin.svg" /></a>
-                    <a href="https://github.com/kxllytrxn" id="social"><img src="images/icons/github.svg" /></a>
-                    <a href="mailto: kellytran03@berkeley.edu" id="social"><img src="images/icons/mail.svg" /></a>
-                </p>
+    <div class="gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 text-center" style="padding-top: 10%">
+                <h1 class="hero"> hello! i'm </h1>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="profile col-xl-5 col-lg-5 col-md-12 col-sm-12 text-center">
-            <img id="profilepic" src="images/profile.jpg" alt="Kelly Tran">
+        <div class="row">
+            <div class="col-sm-12 text-center" style="padding-bottom: 1%">
+                <h1 class="name">
+                   kelly tran
+                </h1>       
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center" style="padding-bottom: 10%">     
+                <div class="hero" id="typed-strings">
+                    <p class="hero">a <strong>programmer</strong></p>
+                    <p class="hero">a <strong>barista</strong></p>        
+                    <p class="hero">a <strong>musician</strong></p>
+                    <p class="hero">a <strong>foodie</strong></p>          
+                </div>
+                <span id="typed"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 justify-content-center" style="padding-bottom: 10%">     
+                <a href="#about-me" ><img src="images/icons/down.png" id="down"> </a>
+            </div>
         </div>
     </div>
-</div>
 
-<a href="#about-me" ><img src="images/icons/down.png" id="down"> </a>
+<section id="about-me">
+    <div class="gradient-2"></div>
 
- <!-- About Me -->
- <section id="about-me">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-center" style="margin-top: 100px">
                 <h1 id="header"> about me </h1>
             </div>
         </div>
-        <div class="container reveal">
-            <div class="row">
-                <div class="col-md-4" style="text-align:center;">
-                    <img src="images/aboutme/web.png" alt="website" id="icon">
-                    <h1 id="about-me-subhead"> Web Developer </h1>                  
-                </div>
-                <div class="col-md-4" style="text-align:center;">
-                    <img src="images/aboutme/coffee.png" alt="" id="icon">
-                    <h1 id="about-me-subhead"> Barista </h1> 
-                </div>
-                <div class="col-md-4" style="text-align:center;">
-                    <img src="images/aboutme/mic.png" alt="music" id="icon">
-                    <h1 id="about-me-subhead"> Musician </h1>    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="about-me">
-                        I'm a <span class="special"> sophomore </span> at UC Berkeley studying <span class="special"> Computer Science </span> 
-                        and minoring in <span class="special"> Music. </span>
-                        Most days, you can find me working part-time at a local cafe near campus or 
-                        studying in my favorite libraries. During my freetime, I love exploring new 
-                        resturants, going on spontaneous <span class="special"> coffee </span> runs,
-                        and making <span class="special"> music </span> with friends.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<a href="#experience" ><img src="images/icons/down.png" id="down"> </a>
-
-<section id="experience">
-    <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <h1 id="header"> experience </h1>
+            <div class="col-12 text-center" style="margin-top: 10px">
+                <img src="images/aboutme/kelly-tran.jpg" style="width: 300px; border-radius:100%">
             </div>
         </div>
-        <div class="container reveal" id="exp">
-            <div class="row">
-                <div class="col-xl-4 col-l-4 col-med-12 col-sm-12 text-center">
-                    <img class="image-fluid" id="company-logo" src="images/experience/SAAS_logo.png" style="width: 250px; height: 125px;">
+        <div class="container">
+            <div class="row reveal">
+                <div class="col-3">
+                    <!--div class="gradient"></~!div--->
                 </div>
-                <div class="col-xl-8 col-l-8 col-md-12 col-sm-12">
-                    <h1 id="company"> SAAS Berkeley </h1>
-                    <p id="position"> Web Development Committee Director </p>
-                    <p id="date"> May 2022 - Present </p>
-                    <p id="description"> 
-                        > In charge of updating the SAAS website & teaching weekly lectures on web development skills such as HTML, CSS & JS
-                        <br>
-                        > Designed carousel to showcase committees using CSS scroll snapping & JS
-                        <br>
-                        > Updated media queries to ensure responsive design & smooth user-experience on all devices
-                    </p>
+                <div class="col-2" style="text-align:center;">
+                    <img src="images/aboutme/web.png" alt="website" id="icon">
                 </div>
+                <div class="col-2" style="text-align:center;">
+                    <img src="images/aboutme/mic.png" alt="music" id="icon">
+                </div>
+                <div class="col-2" style="text-align:center;">
+                    <img src="images/aboutme/coffee.png" alt="coffee" id="icon">
+                </div>
+                <div class="col-3"></div>
             </div>
-        </div>
-        <div class="container reveal" id="exp">
-            <div class="row">
-                <div class="col-xl-4 col-l-4 col-med-12 col-sm-12 text-center">
-                    <img class="image-fluid" id="company-logo" src="images/experience/eecs.png" style="width: 200px; height: 150px;">
-                </div>
-                <div class="col-xl-8 col-l-8 col-md-12 col-sm-12">
-                    <h1 id="company"> CS10: The Beauty & Joy of Computing </h1>
-                    <p id="position"> Academic Intern </p>
-                    <p id="date"> January - May 2022  </p>
-                    <p id="description"> 
-                        > Assisted a cohort of 30 sudents at weekly
-                         sessions with projects, lab & homework assignments 
-                         <br>
-                        > Taught concepts such as OOP, runtime & data abstraction in Snap! & Python
+            <div class="row reveal" style="margin-top: 50px; margin-bottom: 100px;">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <p class="about-me">
+                        I'm a <strong> sophomore </strong> at UC Berkeley studying Computer Science and minoring in Data Science & Music. 
+                        <br> <br>
+                        Alongside my studies, I work as a barista part-time at a cafe and produce my own music (<strong>kxllyrxse </strong> on all streaming services) 
+                        <br> <br>
+                        During my freetime, I love exploring new restaurants + cafes, going on spontaneous thrifting trips, and jamming out with friends. 
                     </p>
+                </div>
+                <div class="col-2"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 justify-content-center" style="padding-bottom: 5%">     
+                    <a href="#projects" ><img src="images/icons/down.png" id="down"> </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<a href="#projects" ><img src="images/icons/down.png" id="down"> </a>
 
 <section id="projects">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h1 id="header" style="align-content: center"> projects </h1>
+    <div class="container-fluid" >
+        <div class="row reveal">
+            <div class="col-12 text-center" style="margin-top: 100px">
+                <h1 id="header"> projects & more </h1>
+                <p> <i> from class projects to stuff i enjoy to do on my freetime! </i> </p>
             </div>
         </div>
-        <div class="reveal container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-m-12 col-sm-12" style="text-align:center;">
-                    <div class="project">
-                        <img src="images/projects/coffee-wifi.svg" id="project-logo" alt="">
-                        <h2 class="project-header">
-                            <a class="project-header" href="https://kxllytrxn.github.io/spotify-cafe.io/#">
-                            Spotify Cafe
-                        </a>
-                        </h2>
-                        
-                        <p id="subhead"> Spotify Web API, React & Node.js  </p>
-                        <p id="proj-description">
-                            > Built a web application using React & Node.js & hosted through GitHub Pages
-                            <br>
+        <div class="container justify-content-center" style="width:90%">
+            <div class="row reveal project">
+                <div class="col-md-3 col-sm-12 justify-content-center text-center">
+                    <span class="dot"> </span>
+                    <img src="images/projects/coffee.webp" class="project-logo coffee" alt="Caffeify">  
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="row" style="padding:0px 50px"> </div>
+                    <div class="row">
+                        <a class="project-header" href="https://kxllytrxn.github.io/spotify-cafe.io/#"> Caffeify </a>
+                    </div>
+                    <div class="row">
+                        <p class="project-info">
+                            > Technologies used: <i> Spotify Web API, ReactJS, Node.js </i><br>
+                            > Built a web application using React & Node.js & hosted through GitHub Pages <br>
                             > Programmed an algorithm to determine a user's coffee order based on user listening history extracted from Spotify's Web API
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-m-12 col-sm-12" style="text-align:center;">
-                    <div class="project">
-                        <img src="images/projects/chatroom.png" id="project-logo" alt="engimachat">
-                        <h2 class="project-header">
-                            EnigmaChat
-                        </h2>
-                        <p id="subhead"> HTML/CSS, jQuery, Express, Angular, & Node.js  </p>
-                        <p id="proj-description">
-                            > Built a private chatroom that sends Engima-encrypted messages
-                            <br>
+            </div>
+
+            <div class="row reveal project">
+                <div class="col-md-3 col-sm-12 justify-content-center text-center">
+                    <span class="dot-3" style="margin-bottom: 20%;"> </span>
+                    <img src="images/projects/diamond1.webp" class="project-logo diamond" alt="Diamond">  
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="row" style="padding:0px 50px"> </div>
+                    <div class="row">
+                        <h1 class="project-header"> Build Your Own World: Minecraft-Edition  </h1>
+                    </div>
+                    <div class="row">
+                        <p class="project-info">
+                            > Technologies used: <i> Java </i><br>
+                            > Programmed a random-world generation algorithm with Minecraft-inspired elements and design  <br>
+                            > Game objective: user-interactive avatar must collect all the randomly-placed diamonds within a reduced line-of-sight
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row reveal project">
+                <div class="col-md-3 col-sm-12 justify-content-center text-center">
+                    <div class="dot-2" style="margin-bottom: 15%;"> </div>
+                    <img src="images/projects/chat.png" class="project-logo chatroom" alt="Chatroom"> 
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="row" style="padding:0px 50px"> </div>
+                    <div class="row">
+                        <h1 class="project-header"> EnigmaChat </h1>
+                    </div>
+                    <div class="row">
+                        <p class="project-info">
+                            > Technologies used: <i>  HTML/CSS, jQuery, Express, Angular, & Node.js </i><br>
+                            > Built a private chatroom that sends Engima-encrypted messages to one-another <br>
                             > Presented a live demo of the final project to panelists from PayPal, Amazon & Roblox
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-m-12 col-sm-12" style="text-align:center;">
-                    <div class="project">
-                        <img src="images/projects/tetris.svg" id="project-logo" alt="tetris">
-                        <h2 class="project-header">
-                            Pytris
-                        </h2>
-                        <p id="subhead"> Python  </p>
-                        <p id="proj-description">
-                            > Programmed Pytris (Tetris in Python) using Pygame, object-oriented programming & existing codebase
+            </div>
+
+
+            <div class="row reveal project">
+                <div class="col-md-3 col-sm-12 justify-content-center text-center">
+                    <div class="dot-4"  style="margin-bottom: 30%;"> </div>
+                    <img src="images/experience/SAAS_logo.png" class="project-logo" id="SAAS" alt="SAAS Berkeley"> 
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="row" style="padding:0px 50px"> </div>
+                    <div class="row">
+                        <h1 class="project-header"> SAAS Berkeley </h1>
+                    </div>
+                    <div class="row">
+                        <h2 class="position-title">  Web Development Committee Director (May 2022 - Present) </h2>
+                    </div>
+                    <div class="row">
+                        <p class="project-info">
+                            > Technologies used: <i>  HTML/CSS, Django, ReactJS, Figma </i><br>
+                            > Redesigned and coded the recruitment timeline, sub-committee pages and the homepage 
+                            for the club website by creating high-fidelity mock-ups and using Bootstrap libraries <br>
+                            > Manage and oversee 4-8 projects each semester from committee members with weekly meetings 
+                            using various different technologies such as ReactJS, APIs, etc.
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-m-12 col-sm-12" style="text-align:center;">
-                    <div class="project">
-                        <img src="images/projects/bee-honey.png" id="project-logo" alt="bee">
-                        <h2 class="project-header">
-                            Ants vs SomeBees
-                        </h2>
-                        <p id="subhead"> Python  </p>
-                        <p id="proj-description">
-                            > Programmed Ants vs SomeBees based on PopCap Games' Plants vs. Zombies using object-oriented programming
-                        </p>
-                    </div>
+            </div>
+        </div>
+
+            
+            <div class="row" style="padding:40px 0px"> </div>
+            <div class="row">
+                <div class="col-sm-12 justify-content-center" style="padding-bottom: 10%">     
+                    <a href="#connect" ><img src="images/icons/down.png" id="down"> </a>
                 </div>
-        
             </div>
         </div>
     </div>
 </section>
-<section style="padding-bottom:100px;"> </section>
+<section id="connect"> 
+    <div class="container">
+        <div class="row reveal text-center">
+            <div class="col-12 text-center" style="margin-top: 10px">
+                <h1 id="header"> let's connect! </h1>
+            </div>
+        </div>
+        <div class="container reveal justify-content-center" style="padding: 0% 25%">
+            <div class="row justify-content-between text-center">
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <a href="http://instagram.com/kxllytrxn/" id="social"><img src="images/icons/insta.svg" /></a>
+                </div>
+                <div class="col-2">
+                    <a href="https://www.linkedin.com/in/kelly-tran-2210" id="social"><img src="images/icons/linkedin.svg" /></a>
+                </div>
+                <div class="col-2">
+                    <a href="https://github.com/kxllytrxn" id="social"><img src="images/icons/github.svg" /></a>
+                </div>
+                <div class="col-2">
+                    <a href="mailto: kellytran03@berkeley.edu" id="social"><img src="images/icons/mail.svg" /></a>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <div class="row reveal">
+            <div class="scroll-container">
+                <div class="photo-gallery">
+                    <img id="image" src="images/aboutme/matcha.JPG"/>
+                    <img id="image" src="images/aboutme/concert.JPG"/>
+                    <img id="image" src="images/aboutme/tora.JPG"/>
+                    <img id="image" src="images/aboutme/glade.jpg"/>
+                    <img id="image" src="images/aboutme/big-game.JPG"/>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</section>
 
-<!-- Footer -->
-<footer class="text-center" style="background-color: rgba(0, 0, 0, 0.2)">
+<footer class="text-center" style="background-color: rgba(66, 76, 69, 0.2)">
     <div class="container p-3">
       <section>
         <div class="row con">
@@ -245,11 +291,7 @@
                 <h5> <a href="#about-me" class="links">about me</a> </h5>
               </li>
             </ul>
-            <ul class="list-unstyled mb-0">
-              <li>
-                <h5> <a href="#experience" class="links">experience</a> </h5>
-              </li>
-            </ul>
+            
             <ul class="list-unstyled mb-0">
               <li>
                 <h5> <a href="#projects" class="links">projects</a> </h5>
@@ -257,18 +299,31 @@
             </ul>
             <ul class="list-unstyled mb-0">
               <li>
-                <h5> <a href="" class="links">resume</a> </h5>
+                <h5> <a href="" class="links">let's connect!</a> </h5>
               </li>
             </ul>
         </div>
       </section>
     </div>
-    <div class="text-center p-3" style="background-color: rgba(90, 76, 62, 0.338)">
-      © 2022 Coded by Kelly Tran ♥
+    <div class="text-center p-3" style="background-color: rgba(62, 90, 74, 0.338)">
+      © 2023 Coded by Kelly Tran ♥
     </div>
   </footer>
-  <!-- Footer -->
 </section>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed('#typed', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 100,
+      startDelay: 10,
+      backSpeed: 100,
+      backDelay: 700,
+      smartBackspace: true,
+      shuffle: false,
+      loop: true,
+      loopCount: Infinity,
+    });
+  </script>
 </body>
 <script src="script.js"></script>
 
