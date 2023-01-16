@@ -9,3 +9,5 @@ for all devices, and plan to continue working on the UI/UX aspect throughout the
 
 I plan to update it periodically throughout each semester with new projects + info as I gain more experience, but
 thanks for stopping by!
+
+Update: 1/15/2023 - Redesigned website
